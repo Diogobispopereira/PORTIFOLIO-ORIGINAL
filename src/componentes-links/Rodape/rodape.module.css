@@ -1,0 +1,23 @@
+.rodape{
+    width: 100%;
+    text-align: center;
+    margin: 14px 0px;
+}
+.rodape h2, p{
+      font-family: var(--fonte-rodape);
+      color:var(--branco);
+}
+.rodape h2{
+    font-size: 50px;
+    font-weight: 800;
+    
+}
+.rodape p{
+    font-size: 22px;
+    font-weight: 500;
+}
+.rodape__linha{
+    width: 80%;
+    margin: 0px auto;
+    border: 3px solid var(--azul);
+}

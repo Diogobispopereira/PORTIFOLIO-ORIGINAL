@@ -1,0 +1,38 @@
+.links{
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    display: flex;
+} 
+.links nav{
+    display: flex;
+    width: 95%;
+    margin: 0px auto;
+    height: 80px;
+    justify-content: space-between;
+     align-items: center;
+}
+.links h2{
+    font-family: var(--fonte-titulo);
+    font-size: 2.5rem;
+    color: var(--branco);
+    text-align: center;
+}
+.links ul{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 20%;
+}
+.links li{
+    font-weight: 600;
+    font-size: 20px;
+    font-family: var(--fonte-link);
+}
+.links a{
+    color:var(--branco);
+}
+.links a:hover{
+    color:var(--verde);
+    text-decoration: underline;
+}
