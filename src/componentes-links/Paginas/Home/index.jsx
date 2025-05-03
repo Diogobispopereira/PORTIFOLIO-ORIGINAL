@@ -50,7 +50,7 @@ export function Home() {
                     Gosto muito de trabalhar em equipe, pois acredito que a troca de ideias é essencial para o aprendizado e para o desenvolvimento de projetos de qualidade.
                 </p>
 
-                <h3 className="home__subtitulo">Habilidades:</h3>
+                <h3 className="home__subtitulo">Habilidades e certificados:</h3>
                 
                 <div className= "itensLinguagem">
                     {home.map((item) => (
