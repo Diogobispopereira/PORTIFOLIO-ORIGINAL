@@ -1,5 +1,7 @@
 import { useState } from "react"
 import "./Home.css"
+import { React } from "../../../Componentes/React"
+
 
 
 export function Home() {
@@ -23,7 +25,8 @@ export function Home() {
         },
         {
             id: 5,
-            linguagem: "UX"
+            linguagem: "REACT",
+            link:"/React"
         },
         {
             id: 6,
@@ -55,7 +58,8 @@ export function Home() {
                 <div className= "itensLinguagem">
                     {home.map((item) => (
                         <div className="home__skills" id={item.id}>
-                            <a href="#"><button className="home__button">{item.linguagem}</button></a>
+                           
+                            <a href={item.link}><button className="home__button">{item.linguagem}</button></a>
                         </div>
                     ))}
                 </div>
