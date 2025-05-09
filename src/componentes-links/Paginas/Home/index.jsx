@@ -9,7 +9,8 @@ export function Home() {
     const [home] = useState([
         {
             id: 1,
-            linguagem: "HTML"
+            linguagem: "HTML",
+            link:"/Html"
         },
         {
             id: 2,

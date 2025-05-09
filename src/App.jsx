@@ -8,6 +8,7 @@ import { Contato } from './componentes-links/Paginas/Contato'
 import { PaginaInicial } from './componentes-links/Paginas/PaginaInicial/paginaInicial'
 import { Rodape } from './componentes-links/Rodape/Rodape'
 import { React } from './Componentes/React'
+import { Html } from './Componentes/Html'
 
 function App() {
 
@@ -20,7 +21,7 @@ function App() {
         <Route path='/projetos' element={<Projetos/>} />
         <Route path='/contatos' element={<Contato/>} />
         <Route path='/react' element={<React/>} />
-        <Route path='/html' element={<React/>} />
+        <Route path='/html' element={<Html/>} />
       </Routes>
       <Rodape/>
     </BrowserRouter>
