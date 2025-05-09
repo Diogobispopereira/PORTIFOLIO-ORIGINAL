@@ -1,0 +1,36 @@
+.react{
+    display: flex;
+    flex-direction: column;
+     width: 90%;
+    margin: 0px auto;
+    height: 525px;
+    align-items: center;
+    justify-content: center;
+}
+.react h2{
+    font-size: 34px;
+    font-family: var(--font-react);
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.react__container{
+
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.react p{
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+.react strong{
+    color: rgb(98, 191, 231);
+ 
+}
+.react strong:hover{
+    color:rgb(52, 3, 52);
+    transform: 0.2 ;
+    text-decoration: underline;
+}

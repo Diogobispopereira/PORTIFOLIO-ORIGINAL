@@ -20,6 +20,7 @@ function App() {
         <Route path='/projetos' element={<Projetos/>} />
         <Route path='/contatos' element={<Contato/>} />
         <Route path='/react' element={<React/>} />
+        <Route path='/html' element={<React/>} />
       </Routes>
       <Rodape/>
     </BrowserRouter>
