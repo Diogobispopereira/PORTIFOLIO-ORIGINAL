@@ -12,7 +12,7 @@ function CursoReutilizado({ nome, imagem }) {
         ))}
       </section>
       <p>
-        Você pode acessar o{" "}
+        Você pode acessar o meu 
         <a
           href="https://www.linkedin.com/in/diogo-bispo-desenvolvedor-front-end/details/certifications/"
           target="_blank"

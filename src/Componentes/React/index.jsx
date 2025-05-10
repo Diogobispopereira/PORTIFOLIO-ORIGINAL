@@ -1,5 +1,5 @@
 import { useState } from "react"
-import style from "./react.module.css"
+import CursoReutilizado from "../CursoReutilizado"
 
 export function React() {
     const [imgReact] = useState([
@@ -17,17 +17,11 @@ export function React() {
         },
     ])
     return (
-        <article className={style.react}>
-            <h2>Aqui está todos os curso de React:</h2>
-            <section className={style.react__container}>
-                {imgReact.map((item) => (
-                    <div id={item.id}>
-                        <img src={item.img} />
-                    </div>
-                ))}
-         
-            </section> 
-              <p>Você pode acessar o <a href="https://www.linkedin.com/in/diogo-bispo-desenvolvedor-front-end/details/certifications/"><strong>LinkidIn</strong></a></p>
+        <article >
+            <CursoReutilizado
+                nome="Aqui está todos os curso de React:"
+                imagem={imgReact}
+            />
         </article>
     )
 }

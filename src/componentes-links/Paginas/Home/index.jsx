@@ -10,19 +10,22 @@ export function Home() {
         {
             id: 1,
             linguagem: "HTML",
-            link:"/Html"
+            link:"/html"
         },
         {
             id: 2,
-            linguagem: "CSS"
+            linguagem: "CSS",
+             link:"Css"
         },
         {
             id: 3,
-            linguagem: "JAVASCRIPT"
+            linguagem: "JAVASCRIPT",
+             link:"/JavaScript"
         },
         {
             id: 4,
-            linguagem: "MOBILE"
+            linguagem: "MOBILE",
+             link:"/html"
         },
         {
             id: 5,
@@ -31,7 +34,8 @@ export function Home() {
         },
         {
             id: 6,
-            linguagem: "IA"
+            linguagem: "Imerão",
+             link:"/imersao"
         },
     ])
     return (

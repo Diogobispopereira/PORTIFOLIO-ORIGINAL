@@ -1,8 +1,7 @@
+import { useState } from "react"
+import CursoReutilizado from "../CursoReutilizado"
 
-import { useState } from "react";
-import CursoReutilizado from "../CursoReutilizado";
-
-export function Html() {
+export function JavaScript() {
     const [imgReact] = useState([
         {
             img: "./react/gerenciando estado react.png",
@@ -16,14 +15,12 @@ export function Html() {
             img: "./react/react com js.png",
             id: 3
         },
-    ]);
-
+    ])
     return (
-        <article>
-            < CursoReutilizado
-                nome="Html"
+        <article >
+            <CursoReutilizado
+                nome="Aqui está todos os curso de React:"
                 imagem={imgReact}
-
             />
         </article>
     )

@@ -1,0 +1,36 @@
+.curso{
+    display: flex;
+    flex-direction: column;
+     width: 90%;
+    margin: 0px auto;
+    height: 525px;
+    align-items: center;
+    justify-content: center;
+}
+.curso h2{
+    font-size: 34px;
+    font-family: var(--font-react);
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.curso__container{
+
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.curso p{
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+.curso strong{
+    color: rgb(98, 191, 231);
+ 
+}
+.curso strong:hover{
+    color:rgb(52, 3, 52);
+    transform: 0.2 ;
+    text-decoration: underline;
+}

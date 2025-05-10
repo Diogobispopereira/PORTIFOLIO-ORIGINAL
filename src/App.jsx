@@ -9,6 +9,9 @@ import { PaginaInicial } from './componentes-links/Paginas/PaginaInicial/paginaI
 import { Rodape } from './componentes-links/Rodape/Rodape'
 import { React } from './Componentes/React'
 import { Html } from './Componentes/Html'
+import { JavaScript } from './Componentes/JavaScript'
+import { Css } from './Componentes/Css'
+import { Imersao } from './Componentes/Imersao'
 
 function App() {
 
@@ -18,10 +21,13 @@ function App() {
         <PaginaLink/>
       <Routes>
         <Route path='/' element={<PaginaInicial/>} />
-        <Route path='/projetos' element={<Projetos/>} />
-        <Route path='/contatos' element={<Contato/>} />
-        <Route path='/react' element={<React/>} />
-        <Route path='/html' element={<Html/>} />
+        <Route path='/Projetos' element={<Projetos/>} />
+        <Route path='/Contatos' element={<Contato/>} />
+        <Route path='/React' element={<React/>} />
+        <Route path='/Html' element={<Html/>} />
+        <Route path='/Css' element={<Css/>} />
+        <Route path='/JavaScript' element={<JavaScript/>} />
+        <Route path='/Imersão' element={<Imersao/>} />
       </Routes>
       <Rodape/>
     </BrowserRouter>
