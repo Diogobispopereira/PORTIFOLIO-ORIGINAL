@@ -49,4 +49,10 @@
     text-align:left;
     padding: 7px;
     font-family: var(--font-contato);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.Contato figure:hover{
+    background-color: #3d3b3b;
+    transform: translateY(-14px);
+    box-shadow: 10px 12px 2px 2px #353333;
 }

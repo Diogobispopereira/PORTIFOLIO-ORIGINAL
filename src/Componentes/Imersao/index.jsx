@@ -2,7 +2,7 @@
 import { useState } from "react";
 import CursoReutilizado from "../CursoReutilizado";
 
-export function Html() {
+export function Imersao() {
     const [imgReact] = useState([
         {
             img: "./react/gerenciando estado react.png",
