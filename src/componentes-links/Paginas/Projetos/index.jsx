@@ -8,7 +8,7 @@ export function Projetos() {
       imagem: "./projetos/AluraFlix.png",
       titulo: "AluraFlix",
       paragrafo: "Este foi desenvolvido 100% em vanila a linguagem principal foi javaScript,neste site de vendas você pode adcionar qualquer coisa desde frutas a carros. Neste modelo foi feito para venda de carros.",
-      link: ""
+      link: "https://alura-flix-iwxo.vercel.app/"
     },
     {
       id: 2,
@@ -40,13 +40,13 @@ export function Projetos() {
       <section className={styles.projeto__container}>
 
 {projeto.map((item) => (
-        <div className={styles.projetosImagem} key={item.id}>
+        <a href={item.link} className={styles.projetosImagem} key={item.id}>
           <img src={item.imagem} />
           <h3> {item.titulo}</h3>
 
           <p>{item.paragrafo} Click:  <a href={item.link} target="_blank" rel="noreferrer"> </a>
           </p>
-        </div>
+        </a>
       ))}
       </section>
 

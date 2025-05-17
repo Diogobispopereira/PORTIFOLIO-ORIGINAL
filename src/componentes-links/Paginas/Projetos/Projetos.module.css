@@ -11,14 +11,15 @@
 }
 .projeto__container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
     gap: 19px;
+  
 }
 .projetosImagem{
-    width: 25%;
+    width: 32%;
     height: auto;
     color: var(--branco);
     box-shadow: 13px 12px 20px 2px rgb(24, 21, 21);
@@ -51,4 +52,17 @@
     font-size: 14px;
     padding: 0px 5px;
     font-weight: 600;
+}
+@media screen and (max-width: 1200px){
+.projeto__container{
+    gap: 20px 8px;
+}
+.projetosImagem{
+    width: 45%;
+}
+}
+@media screen and (max-width: 540px){
+.projetosImagem{
+    width: 100%;
+}
 }

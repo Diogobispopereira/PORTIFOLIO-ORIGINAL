@@ -1,8 +1,6 @@
 import { useState } from 'react'
 import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import { PaginaLink } from './componentes-links/Links'
-import { Home } from './componentes-links/Paginas/Home'
 import { Projetos } from './componentes-links/Paginas/Projetos'
 import { Contato } from './componentes-links/Paginas/Contato'
 import { PaginaInicial } from './componentes-links/Paginas/PaginaInicial/paginaInicial'
@@ -12,6 +10,7 @@ import { Html } from './Componentes/Html'
 import { JavaScript } from './Componentes/JavaScript'
 import { Css } from './Componentes/Css'
 import { Imersao } from './Componentes/Imersao'
+import { PaginaLink } from './componentes-links/CabeicalhoLinks'
 
 function App() {
 
