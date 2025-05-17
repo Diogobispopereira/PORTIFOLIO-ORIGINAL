@@ -101,6 +101,12 @@
     .home__qudro{
         width:50%;
     }
+    .home h2{
+        font-size: 29px;
+    }
+    .home p{
+        font-size: 16px;
+    }
     .home__container{
         width: 90%;
         align-items: center;
@@ -112,4 +118,14 @@
         width: 115%;
         gap: 20px 11px;
     }  
+}
+@media screen and (max-width: 540px){
+    .linha{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 585px){
+    .linha{
+        width: 90%;
+    }
 }

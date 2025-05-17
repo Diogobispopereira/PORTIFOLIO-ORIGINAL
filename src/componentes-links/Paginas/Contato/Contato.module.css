@@ -2,7 +2,7 @@
   width: 90%;
   margin: 0px auto;
   height: 508px;
-  justify-content: center;
+ 
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -17,7 +17,6 @@
     align-items: center;
     position: relative;
     top: 23px;
-
 }
 
 .Contato h2{
@@ -29,25 +28,26 @@
 .Contato figure, h2{
     color: #FFFFFF;
 }
+.Contato p{
+    font-size: 12px;
+}
 .Contato section{
     display: flex;
     align-items: center;
     justify-content:space-evenly;
     width: 100%;
     margin-top: 22px;
-    gap: 21px;
+    gap: 12px;
 }
 .Contato figure{
-    width: 25%;
-    margin: 0px 10px;
+    width: 236px;
     display: flex;
     flex-direction: column;
     border-radius: 12px;
-    padding: 9px;
+    padding: 7px 9px;
     gap: 5px;
     box-shadow: 13px 12px 20px 2px rgb(24, 21, 21);
-    text-align:left;
-    padding: 7px;
+    text-align: left;
     font-family: var(--font-contato);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
@@ -55,4 +55,27 @@
     background-color: #3d3b3b;
     transform: translateY(-14px);
     box-shadow: 10px 12px 2px 2px #353333;
+}
+@media screen and (max-width:955px){
+    .Contato section{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:557px){
+    .Contato{
+    height: auto;
+    gap: 0px;
+}
+    .Contato h2{
+        font-size: 44px;
+    }
+    .Contato section{
+        flex-direction: column;
+    }
+        .Contato__container{
+        height: auto; 
+        gap: 0px;
+        top: 0px;
+    }
 }

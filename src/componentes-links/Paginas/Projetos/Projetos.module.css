@@ -54,15 +54,19 @@
     font-weight: 600;
 }
 @media screen and (max-width: 1200px){
-.projeto__container{
-    gap: 20px 8px;
-}
-.projetosImagem{
-    width: 45%;
-}
+    .projeto__container{
+        gap: 20px 8px;
+    }
+    .projetosImagem{
+        width: 45%;
+    }
+
 }
 @media screen and (max-width: 540px){
-.projetosImagem{
-    width: 100%;
-}
+    .quadroAzul{
+        width: 80%;
+    }
+    .projetosImagem{
+     width: 100%;
+    }
 }
