@@ -65,7 +65,7 @@ h2 {
 
 @media screen and (max-width:955px) {
     .Contato {
-        height: 379px;
+        height: auto;
         display: flex;
         justify-content: center;
         margin-top: 49px;
