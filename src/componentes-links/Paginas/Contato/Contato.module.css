@@ -30,14 +30,13 @@ h2 {
 }
 
 .Contato span {
-    .link-container span {
+  
         display: block;
         max-width: 300px;
         white-space: normal;
         overflow-wrap: break-word;
         word-wrap: break-word;
         font-size: 14px;
-      }
       
 }
 
