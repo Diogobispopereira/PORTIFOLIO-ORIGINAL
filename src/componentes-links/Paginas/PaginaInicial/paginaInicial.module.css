@@ -6,9 +6,9 @@
     gap: 32px;
     margin-top: 12px;
 }
-@media screen and (max-width: 900px){
+/* @media screen and (max-width: 900px){
     .paginaInicial{
         width: 100%;
         margin: 0px;
     }
-}
+} */
