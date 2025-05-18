@@ -18,7 +18,7 @@ export function Contato() {
             />
           </a>
           <figcaption>WhatsApp:</figcaption>
-          <p>(75)9 82627812</p>
+          <span>(75)9 82627812</span>
         </figure>
 
 
@@ -27,7 +27,7 @@ export function Contato() {
             <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub" width="50" />
           </a>
           <figcaption>GitHub:</figcaption>
-          <p>https://github.com/Diogobispopereira</p>
+          <span>https://github.com/Diogobispopereira</span>
         </figure>
 
         <figure>
@@ -35,7 +35,7 @@ export function Contato() {
             <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width="50" />
           </a>
           <figcaption>LinkedIn:</figcaption>
-          <p>https://www.linkedin.com/in/diogo-bispo-desenvolvedor-front-end/</p>
+          <span>https://www.linkedin.com/in/diogo-bispo-desenvolvedor-front-end/</span>
         </figure>
 
         <figure>
@@ -43,7 +43,7 @@ export function Contato() {
             <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" width="50" />
           </a>
           <figcaption>Email:</figcaption>
-          <p>bispodiogo093@gmail.com</p>
+          <span>bispodiogo093@gmail.com</span>
         </figure>
 
       </section>
