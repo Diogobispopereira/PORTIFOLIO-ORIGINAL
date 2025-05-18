@@ -1,6 +1,6 @@
 import { useState } from "react"
 import "./Home.css"
-import { React } from "../../../Componentes/React"
+
 
 
 
@@ -15,7 +15,7 @@ export function Home() {
         {
             id: 2,
             linguagem: "CSS",
-            link: "Css"
+            link: "/Css"
         },
         {
             id: 3,
@@ -30,7 +30,7 @@ export function Home() {
         {
             id: 5,
             linguagem: "REACT",
-            link: "/React"
+            link: "/react"
         },
         {
             id: 6,
