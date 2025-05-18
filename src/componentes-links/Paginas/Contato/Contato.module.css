@@ -1,12 +1,9 @@
 .Contato{
   width: 90%;
-  margin: 0px auto;
-  height: 508px;
- 
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  gap: 34px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
 .Contato__container{
     height: 450px;
