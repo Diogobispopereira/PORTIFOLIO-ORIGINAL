@@ -131,4 +131,9 @@
     .linha h2{
         width: 100%;
     }
+    .home__subtitulo{
+        font-size: 18px;
+        position: relative;
+        right: 24px;
+    }
 }

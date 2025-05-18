@@ -44,7 +44,7 @@ export function Projetos() {
           <img src={item.imagem} />
           <h3> {item.titulo}</h3>
 
-          <p>{item.paragrafo} Click:  <a href={item.link} target="_blank" rel="noreferrer"> </a>
+          <p>{item.paragrafo}
           </p>
         </a>
       ))}
