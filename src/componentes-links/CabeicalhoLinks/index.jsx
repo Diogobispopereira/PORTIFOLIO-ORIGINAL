@@ -5,7 +5,7 @@ export function PaginaLink() {
     return (
                <section className={styles.links}>
             <nav >
-              <h2>Diogo Bispo</h2>
+              <img src="./cabeicalhoLinks/dbimagem.png"/>
                 <ul>
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/projetos">Projetos</Link></li>
