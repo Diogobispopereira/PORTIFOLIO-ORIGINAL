@@ -65,11 +65,10 @@ h2 {
 
 @media screen and (max-width:955px) {
     .Contato {
-        height: auto;
         display: flex;
         justify-content: center;
         margin-top: 49px;
-    
+        height: 765px;
     }
 
     .Contato section {
@@ -79,9 +78,10 @@ h2 {
 
     .Contato__container {
         height: auto;
-        gap: 4px;
+        gap: 14px;
         top: 0px;
         display: flex;
+        margin: 34px 0px;
         justify-content: center;
     }
 
