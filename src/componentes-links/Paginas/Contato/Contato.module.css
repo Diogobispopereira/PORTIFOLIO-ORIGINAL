@@ -1,20 +1,17 @@
 .Contato {
     width: 90%;
     margin: 0px auto;
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
+    height: 474px;
 }
 
 .Contato__container {
-    height: 450px;
+    height: 404px;
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 70px;
+    gap: 21px;
     align-items: center;
-    position: relative;
-    top: 23px;
+    justify-content: center;
 }
 
 .Contato h2 {
@@ -29,13 +26,13 @@ h2 {
 }
 
 .Contato span {
-        display: block;
-        max-width: 300px;
-        white-space: normal;
-        overflow-wrap: break-word;
-        word-wrap: break-word;
-        font-size: 14px;
-        font-family: var(--font-contato);
+    display: block;
+    max-width: 300px;
+    white-space: normal;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    font-size: 14px;
+    font-family: var(--font-contato);
 }
 
 .Contato section {
@@ -67,19 +64,25 @@ h2 {
 }
 
 @media screen and (max-width:955px) {
+    .Contato {
+        height: 467px;
+    }
+
     .Contato section {
         flex-direction: row;
         flex-wrap: wrap;
     }
 
     .Contato__container {
-        height: auto;
-        gap: 0px;
+        height: 440px;
+        gap: 4px;
         top: 0px;
+        display: flex;
+        justify-content: center;
     }
 
     .Contato h2 {
-        font-size: 22px;
+        font-size: 39px;
     }
 
     .Contato span {
