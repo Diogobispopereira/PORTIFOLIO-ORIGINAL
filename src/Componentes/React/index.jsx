@@ -8,8 +8,8 @@ export function ReactPage() {
             id: 1
         },
         {
-            img: "./react/react estilize com styled.png"
-            , id: 2
+            img: "./react/react estilize com styled.png",
+             id: 2
         },
         {
             img: "./react/react com js.png",

@@ -5,7 +5,7 @@ export function Rodape() {
     <footer className={styles.rodape}>
       <div className={styles.rodape__linha}></div>
 
-      <h2>Diogo bispo</h2>
+      <img src="./cabeicalhoLinks/dbimagem.png" alt="logo da pagina"/>
       <p>Desenvolvedor Front-End js</p>
 
       <div className={styles.rodape__linha}></div>
