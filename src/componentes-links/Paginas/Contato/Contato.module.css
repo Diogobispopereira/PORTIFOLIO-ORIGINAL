@@ -21,7 +21,6 @@
     font-size: 54px;
     font-weight: 900;
     font-family: var(--font-contato);
-
 }
 
 .Contato figure,
@@ -30,14 +29,13 @@ h2 {
 }
 
 .Contato span {
-  
         display: block;
         max-width: 300px;
         white-space: normal;
         overflow-wrap: break-word;
         word-wrap: break-word;
         font-size: 14px;
-      
+        font-family: var(--font-contato);
 }
 
 .Contato section {
