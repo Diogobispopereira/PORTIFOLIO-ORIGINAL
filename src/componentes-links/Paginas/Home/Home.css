@@ -128,4 +128,7 @@
     .linha{
         width: 90%;
     }
+    .linha h2{
+        width: 100%;
+    }
 }
