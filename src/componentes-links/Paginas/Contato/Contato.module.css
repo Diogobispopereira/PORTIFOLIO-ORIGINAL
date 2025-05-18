@@ -61,6 +61,14 @@
         flex-direction: row;
         flex-wrap: wrap;
     }
+    .Contato__container{
+    height: auto; 
+    gap: 0px;
+    top: 0px;
+    }
+    .Contato h2{
+        font-size: 22px;
+    }
 }
 @media screen and (max-width:557px){
     .Contato{
@@ -72,10 +80,5 @@
     }
     .Contato section{
         flex-direction: column;
-    }
-        .Contato__container{
-        height: auto; 
-        gap: 0px;
-        top: 0px;
     }
 }
