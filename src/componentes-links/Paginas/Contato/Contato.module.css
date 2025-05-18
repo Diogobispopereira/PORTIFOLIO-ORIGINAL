@@ -69,6 +69,9 @@
     .Contato h2{
         font-size: 22px;
     }
+    .Contato p{
+        font-size: 73%;
+    }
 }
 @media screen and (max-width:557px){
     .Contato{
