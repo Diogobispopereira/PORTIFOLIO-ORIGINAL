@@ -5,7 +5,7 @@ export function Rodape() {
     <footer className={styles.rodape}>
       <div className={styles.rodape__linha}></div>
 
-      <img src="./Logo/logo(2).png" alt="logo da pagina"/>
+      <img src="./logo/logo(2).png" alt="logo da pagina"/>
       <p>Desenvolvedor Front-End js</p>
 
       <div className={styles.rodape__linha}></div>
