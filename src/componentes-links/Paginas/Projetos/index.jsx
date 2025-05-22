@@ -35,7 +35,7 @@ export function Projetos() {
       id: 5,
       imagem: "./projetos/jogo do numero secreto.png",
       titulo: "Jogo do numero secreto",
-      paragrafo: "Este foi desenvolvido 100% em vanila a linguagem principal foi javaScript,neste site você vai se divertir ao tentar acertar o número.",
+      paragrafo: "Este foi desenvolvido 100% em vanila a linguagem principal foi javaScript,neste site você vai se divertir ao tentar acertar o número secreto.",
       link: "https://diogobispopereira.github.io/chellenge/"
     },
   ])
@@ -43,20 +43,27 @@ export function Projetos() {
     <article className={styles.projetos}>
       <h2>Projetos Selecionado:</h2>
 
+
       <div className={styles.quadroAzul}></div>
       <section className={styles.projeto__container}>
 
-{projeto.map((item) => (
-        <a href={item.link} className={styles.projetosImagem} key={item.id}>
-          <img src={item.imagem} />
-          <h3> {item.titulo}</h3>
+        {projeto.map((item) => (
+          <a href={item.link} className={styles.projetosImagem} key={item.id}>
+            <img src={item.imagem} />
+            <h3> {item.titulo}</h3>
 
-          <p>{item.paragrafo}
-          </p>
-        </a>
-      ))}
+            <p>{item.paragrafo}
+            </p>
+          </a>
+        ))}
       </section>
-
+      <div className={styles.quadroAtencao}>
+        <p>
+          <strong>Obs:</strong> Os sites que foram criados com React não estão mostrando a API funcionando.
+           O motivo é que cursei Front-End e, por isso, utilizei uma API fake, apenas para visualizar como o projeto ficaria. 
+          Caso queira ver como ficou, é só entrar em contato comigo pelas redes sociais abaixo. 
+          </p>
+      </div>
     </article>
   )
 } 
