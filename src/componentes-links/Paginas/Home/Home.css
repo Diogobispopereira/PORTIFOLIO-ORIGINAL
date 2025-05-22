@@ -30,10 +30,9 @@
 }
 .itensLinguagem{
     display: flex;
-    justify-content: space-evenly;
     width: 100%;
     flex-wrap: wrap;
-    gap: 12px;
+    gap: 15px 13px;
 }
  .home__qudro{
    display: flex;
@@ -88,10 +87,10 @@
     .home__button{
         width: 116px;
     }
-    .itensLinguagem {
+    /* .itensLinguagem {
         justify-content: space-between;
         gap: 16px 5px;
-    }
+    } */
 }
 @media screen and (max-width: 906px) {
     .home{
@@ -113,11 +112,9 @@
         gap: 16px;
         margin-top: 27px;
     }
-    .itensLinguagem {
-        justify-content: space-evenly;
-        width: 115%;
-        gap: 20px 11px;
-    }  
+     .itensLinguagem {
+        justify-content: center;
+    }   
 }
 @media screen and (max-width: 540px){
     .linha{
@@ -135,5 +132,11 @@
         font-size: 19px;
         position: relative;
         right: 20px;
+    }
+}
+@media  screen and (max-width: 360px) {
+    .home__container{
+        width: 100%;
+        gap: 13px 8px;
     }
 }

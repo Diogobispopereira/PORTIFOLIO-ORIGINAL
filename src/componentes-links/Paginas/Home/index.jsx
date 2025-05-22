@@ -24,8 +24,8 @@ export function Home() {
         },
         {
             id: 4,
-            linguagem: "MOBILE",
-            link: "/html"
+            linguagem: "GITHUB",
+            link: "/github"
         },
         {
             id: 5,
@@ -34,8 +34,19 @@ export function Home() {
         },
         {
             id: 6,
-            linguagem: "Imerão",
+            linguagem: "IMERSÂO",
             link: "/imersao"
+        },
+        {
+            id: 7,
+            linguagem: "IA",
+            link: "/ia"
+        },
+        
+        {
+            id: 7,
+            linguagem: "Business agility",
+            link: "/business agility"
         },
     ])
     return (

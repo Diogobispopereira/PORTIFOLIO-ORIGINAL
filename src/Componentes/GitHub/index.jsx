@@ -1,25 +1,23 @@
 import { useState } from "react"
 import CursoReutilizado from "../CursoReutilizado"
 
-export function ReactPage() {
+export function GitHub() {
     const [imgReact] = useState([
         {
-            img: "./react/gerenciando estado react.png",
+            img: "./github/git github.jpg",
             id: 1
         },
         {
-            img: "./react/react estilize com styled.png",
-             id: 2
+            img: "./github/github copilot.jpg",
+            id: 2
         },
-        {
-            img: "./react/react com js.png",
-            id: 3
-        },
+        
+      
     ])
     return (
         <article >
             <CursoReutilizado
-                nome="Aqui estãos os curso de React:"
+                nome="Aqui estão os curso de Github"
                 imagem={imgReact}
             />
         </article>

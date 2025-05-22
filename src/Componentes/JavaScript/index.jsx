@@ -4,22 +4,22 @@ import CursoReutilizado from "../CursoReutilizado"
 export function JavaScript() {
     const [imgReact] = useState([
         {
-            img: "./react/gerenciando estado react.png",
+            img: "./javaScript/javascript consumindo e tratando dados.jpg",
             id: 1
         },
         {
-            img: "./react/react estilize com styled.png"
+            img: "./javaScript/javascript manipulando o dom.jpg"
             , id: 2
         },
         {
-            img: "./react/react com js.png",
+            img: "./javaScript/javaScript para web.jpg",
             id: 3
         },
     ])
     return (
         <article >
             <CursoReutilizado
-                nome="Aqui está todos os curso de React:"
+                nome="Aqui estão os curso de JavaScript:"
                 imagem={imgReact}
             />
         </article>
