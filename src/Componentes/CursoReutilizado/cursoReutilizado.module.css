@@ -3,7 +3,7 @@
     flex-direction: column;
      width: 90%;
     margin: 0px auto;
-    height: 525px;
+    height: auto;
     align-items: center;
     justify-content: center;
 }
@@ -16,8 +16,13 @@
 .curso__container{
     flex-direction: row;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 15px;
+    gap: 9px;
+}
+.curso img{
+    width: 49%;
+    height: 287px;
 }
 .curso p{
     font-size: 24px;
@@ -26,7 +31,7 @@
 }
 .curso strong{
     color: rgb(98, 191, 231);
- 
+   margin: 0px 6px;
 }
 .curso strong:hover{
     color:rgb(52, 3, 52);
@@ -50,5 +55,8 @@
         text-align: center;
         width: 80%;
         font-size: 18px;
+    }
+    .curso img{
+        width: 100%;
     }
 }

@@ -6,9 +6,9 @@ function CursoReutilizado({ nome, imagem }) {
       <h2>{nome}</h2>
       <section className={style.curso__container}>
         {imagem.map((item) => (
-          <div key={item.id}>
-            <img src={item.img} alt={`Curso de ${nome}`} />
-          </div>
+       
+            <img key={item.id} src={item.img} alt={`Curso de ${nome}`} />
+          
         ))}
       </section>
       <p>
@@ -20,7 +20,8 @@ function CursoReutilizado({ nome, imagem }) {
           rel="noopener noreferrer"
         >   
              <strong>LinkedIn</strong>
-        </a>
+        </a> 
+        para ver todos os cursos.
       </p>
     </article>
   )
