@@ -24,7 +24,14 @@
     color: var(--branco);
     box-shadow: 13px 12px 20px 2px rgb(24, 21, 21);
     padding: 0px 0px 9px 1px;
-    border-radius: 12px;
+    border-radius: 12px;   transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.projetosImagem:hover {
+    background-color: #3d3b3b;
+    transform: translateY(-4px);
+    box-shadow: 10px 12px 2px 2px #353333;
+
 }
 .projetosImagem img{
     width: 100%;
