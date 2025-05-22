@@ -39,14 +39,7 @@
     text-decoration: underline;
 }
 
-@media screen and (max-width: 900px){
-    .curso{
-        height: auto;
-    }
-    .curso__container{
-        flex-direction: column;
-    }
-}
+
 @media screen and (max-width: 550px){
     .curso h2{
         font-size: 29px;
