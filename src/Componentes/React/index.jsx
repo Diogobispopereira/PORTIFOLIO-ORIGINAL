@@ -19,7 +19,7 @@ export function ReactPage() {
     return (
         <article >
             <CursoReutilizado
-                nome="Aqui estãos os curso de React:"
+                nome="Aqui estãos os curso de React"
                 imagem={imgReact}
             />
         </article>

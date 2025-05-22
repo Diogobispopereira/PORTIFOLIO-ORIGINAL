@@ -34,7 +34,7 @@ export function Home() {
         },
         {
             id: 6,
-            linguagem: "IMERSÂO",
+            linguagem: "IMERSAO",
             link: "/imersao"
         },
         {

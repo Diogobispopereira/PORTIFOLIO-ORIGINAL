@@ -17,13 +17,7 @@ export function Projetos() {
       paragrafo: "Este foi desenvolvido 100% em vanila a linguagem principal foi javaScript,neste site de vendas você pode adcionar qualquer coisa desde frutas a carros. Neste modelo foi feito para venda de carros.",
       link: ""
     },
-    {
-      id: 3,
-      imagem: "./projetos/AluraFlix.png",
-      titulo: "AluraFlix",
-      paragrafo: "Este foi desenvolvido 100% em vanila a linguagem principal foi javaScript,neste site de vendas você pode adcionar qualquer coisa desde frutas a carros. Neste modelo foi feito para venda de carros.",
-      link: "https://chelleger-alura-geek.vercel.app/"
-    },
+    
     {
       id: 4,
       imagem: "./projetos/decodificador.png",

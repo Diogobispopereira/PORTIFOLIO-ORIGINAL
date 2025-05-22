@@ -30,7 +30,7 @@ function App() {
         <Route path='/html' element={<Html/>} />
         <Route path='/css' element={<Css/>} />
         <Route path='/javaScript' element={<JavaScript/>} />
-        <Route path='/imersão' element={<Imersao/>} />
+        <Route path='/imersao' element={<Imersao/>} />
         <Route path='/ia' element={<PageIa/>} />
         <Route path='/github' element={<GitHub/>} />
         <Route path='/business agility' element={<GitHub/>} />
