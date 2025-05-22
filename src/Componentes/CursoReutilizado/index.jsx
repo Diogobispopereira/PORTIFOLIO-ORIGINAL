@@ -1,7 +1,7 @@
 import style from "./cursoReutilizado.module.css"
 
 function CursoReutilizado({ nome, imagem }) {
-  return (
+  return ( 
     <article className={style.curso}>
       <h2>{nome}</h2>
       <section className={style.curso__container}>

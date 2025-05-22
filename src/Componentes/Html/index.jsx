@@ -26,7 +26,7 @@ export function Html() {
         },
         {
             img: "./html/html ia.png",
-            id: 6
+            id: 6,
         },
     ]);
 
@@ -35,7 +35,7 @@ export function Html() {
             < CursoReutilizado
                 nome="Aqui estão os curso de Html"
                 imagem={imgReact}
-
+                
             />
         </article>
     )
