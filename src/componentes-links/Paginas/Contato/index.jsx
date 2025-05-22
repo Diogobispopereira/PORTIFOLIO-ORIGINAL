@@ -39,13 +39,13 @@ export function Contato() {
             </figure>
           </a>
 
-          <a href="bispodiogo093@gmail.com">
+          
             <figure>
               <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" width="50" />
               <figcaption>Email:</figcaption>
               <span>bispodiogo093@gmail.com</span>
             </figure>
-          </a>
+          
 
         </section>
       </div>
