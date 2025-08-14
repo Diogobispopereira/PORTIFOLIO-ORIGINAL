@@ -45,7 +45,7 @@ export function Home() {
         
         {
             id: 7,
-            linguagem: "Soft Skills",
+            linguagem: "SOFT SKILLS",
             link: "/business agility"
         },
     ])
