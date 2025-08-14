@@ -42,7 +42,7 @@ export function Projetos() {
       alt:"Imagem da página inicial do site de inglês e espanhol",
       titulo: "projetos/MM curso",
       paragrafo: "Este foi desenvolvido 100% em Vite/React a linguagem principal foi javaScript,neste site você poderá escolher os cursos de Inglês espanhol e entrar em contato com seus professores.",
-      link: "https://portifolio-original-sigma.vercel.app/"
+      link: "https://mm-curso-ssya.vercel.app/"
     },
   ])
   return (
