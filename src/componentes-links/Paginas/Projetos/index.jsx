@@ -8,14 +8,15 @@ export function Projetos() {
       imagem: "./projetos/AluraFlix.png",
       titulo: "AluraFlix",
       paragrafo: "Este foi desenvolvido em @vite/React. Foi utilizad:Html, Css e JavaScript,neste site você pode adcionar qualquer video, tipo: Música,linguagem de programação etc.",
-      link: "https://alura-flix-iwxo.vercel.app/"
+      // link: "https://mm-curso.vercel.app/"
+      link: "https://alura-flix-seven-beta.vercel.app/"
     },
     {
       id: 2,
       imagem: "./projetos/AluraGeek.png",
       titulo: "AluraGeek",
       paragrafo: "Este foi desenvolvido 100% em vanila a linguagem principal foi javaScript,neste site de vendas você pode adcionar qualquer coisa desde frutas a carros. Neste modelo foi feito para venda de carros.",
-      link: ""
+      link: "https://chelleger-alura-geek.vercel.app/"
     },
     
     {
@@ -23,14 +24,21 @@ export function Projetos() {
       imagem: "./projetos/decodificador.png",
       titulo: "Decodificador de texto",
       paragrafo: "Este foi desenvolvido 100% em vanila a linguagem principal foi javaScript,neste site você pode escrever um texto e apertar em decodificar que terá o texto modificado, se reverter o processo ele voltará ao normal .",
-      link: "https://diogobispopereira.github.io/chellenge/"
+      link: "https://codificador-e-decodificado.vercel.app/"
     },
     {
       id: 5,
       imagem: "./projetos/jogo do numero secreto.png",
       titulo: "Jogo do numero secreto",
       paragrafo: "Este foi desenvolvido 100% em vanila a linguagem principal foi javaScript,neste site você vai se divertir ao tentar acertar o número secreto.",
-      link: "https://diogobispopereira.github.io/chellenge/"
+      link: "https://jogo-do-numero-secreto-hazel-rho.vercel.app/"
+    },
+    {
+      id: 6,
+      imagem: "./projetos/MM curso.jpeg",
+      titulo: "projetos/MM curso",
+      paragrafo: "Este foi desenvolvido 100% em Vite/React a linguagem principal foi javaScript,neste site você poderá escolher os cursos de Inglês espanhol e entrar em contato com seus professores.",
+      link: "https://jogo-do-numero-secreto-hazel-rho.vercel.app/"
     },
   ])
   return (
@@ -46,8 +54,7 @@ export function Projetos() {
             <img src={item.imagem} />
             <h3> {item.titulo}</h3>
 
-            <p>{item.paragrafo}
-            </p>
+            <p>{item.paragrafo}</p>
           </a>
         ))}
       </section>
